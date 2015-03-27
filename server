@@ -1,5 +1,5 @@
 [deploy]
-checkout = git clone 'git@github.com:spacemath/deploy' 'deploy'
+checkout = git clone 'git@github.com:spacemath/deploy' 'deploy' && sed 's/github/nasa/' deploy/config.json
 
 [spacemath.github.io]
 checkout = git clone 'git@github.com:spacemath/spacemath.github.io' 'spacemath.github.io'
